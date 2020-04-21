@@ -4,7 +4,7 @@ import * as bodyParser from 'body-parser';
 import * as mongoose from 'mongoose';
 import * as cors from 'cors';
 import { DayRoutes } from './routes/day';
-// TODO use .env
+// TODO FIX use .env
 const env = process.env.NODE_ENV || 'development';
 const config = require(`./config/${env}`);
 
