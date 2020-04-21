@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "pretty": true,
+        "sourceMap": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "removeComments": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
